@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Program-1</title>
+</head>
+
+
+<!-- 1. Write a JavaScript to design a simple calculator to perform the following operations: sum, product, difference and
+quotient. -->
+
+
+<body>
+    <h1>Calculator</h1>
+    <!-- <form action="" method=""> -->
+    <label for="num1">Enter First Number</label>
+    <input type="number" name="num1" id="num1" required>
+    <br><br>
+    <label for="num2">Enter Second Number</label>
+    <input type="number" name="num2" id="num2" required>
+    <br><br>
+    <label for="operation">Operation</label><br>
+    <button onclick="add()">SUM (+)</button>
+    <button onclick="subtract()">DIFFERENCE (-)</button>
+    <button onclick="multiply()">PRODUCT (*)</button>
+    <button onclick="divide()">QUOTIENT (/)</button>
+
+    <br><br>
+    <fieldset>
+
+        <h2>Result = <span id="result"></span></h2>
+
+    </fieldset>
+
+    <!-- <h3></h3> -->
+
+</body>
+<script src="./index.js"></script>
+
+</html>

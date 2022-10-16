@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-3</title>
+</head>
+
+<body>
+
+    <div class="form_data" style="background-color: #3366cc; padding:1rem ; width:45rem; color:white">
+
+
+        <div class="personal_info">
+            <form action="">
+
+                <fieldset>
+                    <legend>Personal Info</legend>
+
+
+                    <label for="fname">First Name: </label>
+                    <input id="fname" size="30" type="text">
+                    <br>
+                    <label for="lname">Last Name: </label>
+                    <input id="lname" size="30" type="text">
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div class="course_info">
+            <form action="">
+
+                <fieldset>
+
+                    <legend>Course Info</legend>
+
+
+                    <label for="course">Course: </label><br>
+                    <input type="radio" name="course" value="web_design">Web Design<br>
+                    <input type="radio" name="course" value="sql">SQL<br>
+                    <input type="radio" name="course" value="programming">Programming<br>
+
+                    <label for="Career">Career Goal: </label><br>
+                    <!-- create a dropdown -->
+                    <select name="Career" id="Career">
+                        <option value="">Programmer</option>
+                        <option value="web_design">Web Design</option>
+                        <option value="sql">SQL</option>
+                        <option value="programming">PROGRAMMING</option>
+                    </select> <br>
+                    <label for="skills">Skills (check all that apply)</label>
+                    <br>
+                    <input type="checkbox" name="skills" value="UNIX">UNIX
+                    <input type="checkbox" name="skills" value="VIM">VIM <br>
+                    <input type="checkbox" name="skills" value="HTML">HTML
+                    <input type="checkbox" name="skills" value="CSS">CSS <br>
+                    <input type="checkbox" name="skills" value="Python">PYTHON
+                    <input type="checkbox" name="skills" value="JavaScript">Javascript <br>
+
+
+                    <label for="desc">Describe any additional skills you have:</label> <br>
+                    <textarea name="desc" id="desc" cols="80" rows="5"></textarea>
+                </fieldset>
+            </form>
+            <button>Enter the information</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+</head>
+
+<body>
+
+    <!-- Write a program to demonstrate the concept of HTML Image mapping element.
+    e.g Consider an image of India with different states. Use image mapping to give the demo graphics of the states. -->
+
+
+
+    <img src="./ezgif-5-66d3a6afa8.jpg" alt="" usemap="#workmap"
+        style="margin-left: 150px; margin-top:100px; background-color:red; border:2px solid red">
+
+    <!-- <map name="workmap">
+        <area shape="poly"
+            coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+            href="J&K" alt="Rajasthan">
+
+        <area shape="rect" coords="90,0,130,50" href="Bengal" alt="">
+    </map> -->
+
+
+    <map name="workmap">
+        <map name="image-map">
+            <area target="_blank" alt="JAMMU &amp; KASHMIR" title="JAMMU &amp; KASHMIR"
+                href="https://jk.gov.in/jammukashmir/"
+                coords="175,76,158,102,170,129,208,152,221,136,243,129,215,97,196,77,182,68,161,82" shape="poly">
+
+            <area target="_blank" alt="LADAKH" title="LADAKH" href="https://ladakh.nic.in/"
+                coords="181,11,259,48,318,48,307,99,331,69,332,55,303,117,316,136,299,142,304,149,246,132,206,79,176,62,155,47,149,24,205,6,219,20,237,30,324,57,323,74,143,33"
+                shape="poly">
+            <area target="_blank" alt="HIMACHAL PRADESH" title="HIMACHAL PRADESH" href="https://himachal.nic.in/"
+                coords="242,131,224,135,218,160,232,182,246,199,264,209,270,196,282,186,294,186,296,173,290,155,273,140"
+                shape="poly">
+            <area target="_blank" alt="PUNJAB" title="PUNJAB" href="https://punjab.gov.in/"
+                coords="215,153,199,161,185,171,185,188,177,202,167,217,174,225,183,225,196,226,202,234,218,230,229,221,236,217,243,203"
+                shape="poly">
+            <area target="_blank" alt="UTTARAKHAND" title="UTTARAKHAND" href="https://uk.gov.in/"
+                coords="266,209,299,190,277,192,271,225,285,233,298,241,312,256,327,260,334,241,344,225,351,214,331,201,309,190,305,181"
+                shape="poly">
+            <area target="_blank" alt="RAJASTHAN" title="RAJASTHAN" href="https://rajasthan.gov.in/"
+                coords="165,215,111,287,49,303,61,338,75,282,65,291,86,374,141,388,173,425,192,375,244,384,250,337,273,321,255,295"
+                shape="poly">
+            <area target="_blank" alt="GUJARAT" title="GUJARAT" href="https://gujaratindia.gov.in/"
+                coords="93,382,53,394,25,398,17,409,24,426,45,435,68,428,59,439,32,451,42,461,65,489,95,490,116,472,125,449,133,454,129,467,129,485,137,508,157,494,165,477,170,450,157,419,141,394"
+                shape="poly">
+            <area target="_blank" alt="MADHYA PRADESH" title="MADHYA PRADESH" href="https://mp.gov.in/"
+                coords="282,319,301,334,287,363,281,389,295,397,293,367,310,373,341,374,366,375,394,387,397,410,373,412,374,438,361,448,343,478,308,473,281,474,255,474,224,479,193,475,172,462,174,439,201,375"
+                shape="poly">
+            <area target="_blank" alt="HARYANA" title="HARYANA" href="https://haryana.gov.in/"
+                coords="248,202,261,218,251,236,261,273,244,281,224,281,209,261,189,234" shape="poly">
+            <area target="_blank" alt="UTTAR PRADESH" title="UTTAR PRADESH" href="https://www.up.gov.in/en"
+                coords="263,218,253,250,261,276,261,305,281,317,297,325,298,353,301,363,316,365,330,361,349,368,372,368,390,384,398,385,413,401,421,381,421,361,440,357,437,336,433,305"
+                shape="poly">
+            <area target="_blank" alt="BIHAR" title="BIHAR" href="https://state.bihar.gov.in/main/CitizenHome.html"
+                coords="437,304,463,315,506,329,535,330,536,342,535,361,518,378,495,382,471,386,453,392,429,389,423,368"
+                shape="poly">
+            <area target="_blank" alt="MAHARASHTRA" title="MAHARASHTRA" href="https://www.maharashtra.gov.in/1125/Home"
+                coords="169,466,137,512,131,532,136,568,141,603,157,638,172,624,192,612,223,595,249,574,269,551,283,528,313,534,329,555,347,538,341,521,342,508,341,482"
+                shape="poly">
+            <area target="_blank" alt="KARNATAKA" title="KARNATAKA" href="https://www.karnataka.gov.in/english"
+                coords="206,604,167,642,170,686,181,718,195,740,232,764,255,753,265,729,285,712,261,592,261,568"
+                shape="poly">
+            <area target="_blank" alt="KERALA" title="KERALA" href="https://www.keralatourism.org/"
+                coords="185,731,197,758,216,792,228,832,245,856,249,836,248,820,246,806,232,783,222,762" shape="poly">
+            <area target="_blank" alt="TAMIL NADU" title="TAMIL NADU" href="https://www.tn.gov.in/"
+                coords="227,767,253,758,260,746,284,733,330,710,326,738,324,756,322,768,322,788,317,796,309,803,301,816,297,825,271,851,254,859"
+                shape="poly">
+            <area target="_blank" alt="ANDHRA PRADESH" title="ANDHRA PRADESH" href="https://psc.ap.gov.in/"
+                coords="249,643,242,666,258,689,277,700,284,715,295,715,325,706,333,696,332,674,329,656,341,643,357,639,370,625,392,614,405,591,440,567,454,551,426,551,331,609,284,633,353,603"
+                shape="poly">
+            <area target="_blank" alt="TELANGANA" title="TELANGANA" href="https://www.telangana.gov.in/"
+                coords="282,535,273,549,261,570,257,614,261,631,293,630,319,615,344,606,359,592,344,566,317,536"
+                shape="poly">
+            <area target="_blank" alt="CHATTISGARH" title="CHATTISGARH" href="https://chhattisgarh.nic.in/"
+                coords="337,554,345,566,355,581,369,573,377,562,386,545,379,522,397,524,393,514,393,495,405,486,422,459,419,481,439,446,439,432,434,415,417,401,402,407,371,409,383,425,361,449,345,471"
+                shape="poly">
+            <area target="_blank" alt="ODISHA" title="ODISHA" href="https://odisha.gov.in/"
+                coords="445,448,475,458,495,446,521,460,515,476,506,508,476,528,451,549,425,549,398,568,365,583,385,516,401,486,399,521"
+                shape="poly">
+            <area target="_blank" alt="JHARKHAND" title="JHARKHAND" href="https://www.jharkhand.gov.in/"
+                coords="417,398,427,389,445,394,458,388,471,388,481,378,494,387,499,390,509,386,520,375,527,360,536,374,537,387,531,399,518,405,505,411,496,415,483,417,489,425,499,438,509,450,478,447,481,456,462,448,440,447"
+                shape="poly">
+            <area target="_blank" alt="WEST BENGAL" title="WEST BENGAL" href="https://wb.gov.in/"
+                coords="542,308,562,307,581,322,587,330,590,322,584,336,574,332,551,326,546,339,549,350,565,361,552,374,545,379,560,396,569,450,547,458,519,459,484,420,516,404,537,386,537,361"
+                shape="poly">
+            <area target="_blank" alt="SIKKIM" title="SIKKIM" href="https://sikkim.gov.in/"
+                coords="561,279,548,284,541,295,545,305,558,305,560,293" shape="poly">
+            <area target="_blank" alt="ASSAM" title="ASSAM" href=""
+                coords="591,319,610,315,639,314,659,310,691,307,717,283,747,276,751,290,729,303,717,315,702,330,695,339,689,350,686,361,681,380,672,382,658,387,665,364,657,343,632,339,594,342"
+                shape="poly">
+            <area target="_blank" alt="ARUNACHAL PRADESH" title="ARUNACHAL PRADESH"
+                href="http://www.arunachalpradesh.gov.in/"
+                coords="633,292,648,286,667,278,677,268,691,255,717,234,740,240,758,240,760,261,784,261,780,284,773,291,752,301,737,312,736,304,739,298,751,287,750,274,729,273,712,284,696,298,679,303,651,309"
+                shape="poly">
+            <area target="_blank" alt="MEGHALAYA" title="MEGHALAYA" href="https://meghalaya.gov.in/"
+                coords="590,351,600,343,617,343,630,341,640,343,648,342,657,350,659,360,642,359,607,362,596,360"
+                shape="poly">
+            <area target="_blank" alt="TRIPURA" title="TRIPURA" href="https://tripura.gov.in/"
+                coords="643,425,648,414,653,404,660,395,653,387,642,393,634,399,630,410" shape="poly">
+            <area target="_blank" alt="NAGALAND" title="NAGALAND" href="https://nagaland.gov.in/"
+                coords="731,306,720,314,711,322,702,326,702,335,697,343,689,347,692,356,705,347,714,349,719,349,733,327,733,338"
+                shape="poly">
+            <area target="_blank" alt="MANIPUR" title="MANIPUR" href="https://www.eservicesmanipur.gov.in/eda/"
+                coords="687,355,680,377,680,391,696,396,709,397,715,383,721,365,723,349" shape="poly">
+            <area target="_blank" alt="MIZORAM" title="MIZORAM" href="https://mizoram.gov.in/"
+                coords="672,387,659,399,659,409,663,420,668,445,675,452,684,429,688,395,687,447,682,388" shape="poly">
+            <area target="_blank" alt="DELHI" title="DELHI" href="https://delhi.gov.in/"
+                coords="252,257,249,267,256,266,259,259" shape="poly">
+
+
+        </map>
+    </map>
+</body>
+
+</html>

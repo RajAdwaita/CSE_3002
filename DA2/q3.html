@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IWP</title>
+</head>
+
+<body>
+    <form action="./thank.html" onsubmit="submitFunction()">
+        <fieldset>
+            <legend>General Details</legend>
+            <label for="Name">Name: </label>
+            <input id="Name" type="text" required />
+            <br />
+            <label for="email">Email: </label>
+            <input id="email" type="text" required />
+            <br />
+            <label for="Gender">Gender: </label>
+            <input type="radio" id="male" name="male" value="male" required />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female" value="female" />
+            <label for="female">Female</label><br />
+            <label for="about">How did you hear about us: </label>
+            <select class="about" name="about" required>
+                <option value="Programmer">Search Engine</option>
+            </select>
+            <br />
+            <label for="desc">Comments: </label>
+            <br />
+            <textarea name="desc" id="desc" cols="20" rows="2" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>User Account Details</legend>
+            <label for="username">Username: </label>
+            <input id="username" type="text" required />
+            <br />
+            <label for="password">Password: </label>
+            <input id="password" type="password" required />
+            <br />
+            <label for="subs">Newsletter Subscriptions: </label>
+            <input type="checkbox" name="subs" value="articles" />PHP Articles
+            <input type="checkbox" name="subs" value="news" required />PHP News
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <script src="./q3.js"></script>
+     
+</body>
+
+</html>
